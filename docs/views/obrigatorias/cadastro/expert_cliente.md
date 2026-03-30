@@ -12,7 +12,7 @@
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
 | `id` | `int` | Sequência de linhas no retorno da view. |
-| `codigocliente` | `varchar(30)` | Código do cliente, o valor enviado deve ser o mesmo que será utilizado na view expert_pedido e o valor e o que será apresentado nas rotinas do sistema. |
+| `codigocliente` | `varchar(30)` | Código do cliente, o valor enviado deve ser o mesmo que será utilizado na view expert_saida e o valor e o que será apresentado nas rotinas do sistema. |
 | `nome` | `varchar(100)` | Nome do cliente que deseja que seja apresentado no sistema. |
 | `cpfcnpj` | `varchar(14)` | Dado de CPF ou CNPJ do cliente, o dado deve vir sem caracteres especiais. |
 
@@ -33,7 +33,6 @@
 | `cep` | `varchar(8)` | Cep do cliente, o dado deve vir sem caracteres especiais. |
 | `telefone` | `varchar(14)` | Telefone do cliente, o dado deve vir sem caracteres especiais. |
 | `shelflife` | `varchar(14)` | Regra de Shelf de expedição para o cliente. |
-
 
 ---
 

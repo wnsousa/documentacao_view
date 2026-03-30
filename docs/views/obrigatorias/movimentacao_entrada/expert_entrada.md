@@ -1,7 +1,7 @@
-# expert_nota
+# expert_entrada
 
 ![Obrigatória](https://img.shields.io/badge/View-Obrigatória-red)
-![Módulo](https://img.shields.io/badge/Módulo-Movimentação-blue)
+![Módulo](https://img.shields.io/badge/Módulo-Entrada-blue)
 
 > View que representa todos os movimentos de entrada (compra, devolução, transferencia, etc).
 
@@ -48,7 +48,7 @@ SELECT
     codigo_fornecedor,
     data,
     tipo_entrada
-FROM expert_nota
+FROM expert_entrada
 ```
 
 !!! danger "Atenção"

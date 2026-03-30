@@ -1,7 +1,7 @@
-# expert_pedido
+# expert_saida
 
 ![Obrigatória](https://img.shields.io/badge/View-Obrigatória-red)
-![Módulo](https://img.shields.io/badge/Módulo-Movimentação-blue)
+![Módulo](https://img.shields.io/badge/Módulo-Saída-blue)
 
 > View que representa todos os tipos de saida (Venda, retira, transferencia, etc).
 
@@ -49,7 +49,7 @@ SELECT
     codigo_filial,
     data,
     total_pedido
-FROM expert_pedido
+FROM expert_saida
 ```
 
 !!! danger "Atenção"

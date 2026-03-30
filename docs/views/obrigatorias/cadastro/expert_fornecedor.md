@@ -12,7 +12,7 @@
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
 | `id` | `int` | Sequência de linhas no retorno da view. |
-| `codigofornecedor` | `varchar(30)` | Código do fornecedor, o valor enviado deve ser o mesmo que será utilizado na view expert_nota e o valor e o que será apresentado nas rotinas do sistema. |
+| `codigofornecedor` | `varchar(30)` | Código do fornecedor, o valor enviado deve ser o mesmo que será utilizado na view expert_entrada e o valor e o que será apresentado nas rotinas do sistema. |
 | `nome` | `varchar(100)` | Nome do fornecedor que deseja que seja apresentado no sistema. |
 | `cpfcnpj` | `varchar(14)` | Dado de CPF ou CNPJ do fornecedor, o dado deve vir sem caracteres especiais. |
 

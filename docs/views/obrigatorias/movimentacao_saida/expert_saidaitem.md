@@ -1,7 +1,7 @@
-# expert_pedidoitem
+# expert_saidaitem
 
 ![Obrigatória](https://img.shields.io/badge/View-Obrigatória-red)
-![Módulo](https://img.shields.io/badge/Módulo-Movimentação-blue)
+![Módulo](https://img.shields.io/badge/Módulo-Saída-blue)
 
 > View que trás os registros dos itens dos pedidos.
 
@@ -42,7 +42,7 @@ SELECT
     codigo_produto,
     sequencia,
     quantidade
-FROM expert_pedidoitem
+FROM expert_saidaitem
 ```
 
 !!! danger "Atenção"

@@ -1,7 +1,7 @@
 # expert_rota
 
 ![Opcional](https://img.shields.io/badge/View-Opcional-green)
-![Módulo](https://img.shields.io/badge/Módulo-Opcional-green)
+![Módulo](https://img.shields.io/badge/Módulo-Cadastro-green)
 
 > View que representa a rota que esta vinculada aos pedidos.
 

@@ -1,7 +1,7 @@
 # expert_embalagem
 
 ![Opcional](https://img.shields.io/badge/View-Opcional-green)
-![Módulo](https://img.shields.io/badge/Módulo-Opcional-green)
+![Módulo](https://img.shields.io/badge/Módulo-Cadastro-green)
 
 > View responsavel pela relações de codigos de barras do produto.
 

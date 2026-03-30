@@ -1,9 +1,9 @@
-# expert_notaitem
+# expert_entradaitem
 
 ![Obrigatória](https://img.shields.io/badge/View-Obrigatória-red)
-![Módulo](https://img.shields.io/badge/Módulo-Movimentação-blue)
+![Módulo](https://img.shields.io/badge/Módulo-Entrada-blue)
 
-> Itens da nota fiscal de entrada.
+> View que representa os itens da nota fiscal de entrada.
 
 ---
 
@@ -47,7 +47,7 @@ SELECT
     codigo_produto,
     sequencia,
     quantidade
-FROM expert_notaitem
+FROM expert_entradaitem
 ```
 
 !!! danger "Atenção"

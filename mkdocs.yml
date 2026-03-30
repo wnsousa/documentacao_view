@@ -45,16 +45,23 @@ nav:
       - expert_cliente: views/obrigatorias/cadastro/expert_cliente.md
       - expert_fornecedor: views/obrigatorias/cadastro/expert_fornecedor.md
       - expert_produto: views/obrigatorias/cadastro/expert_produto.md
-    - Movimentação:
-      - expert_pedido: views/obrigatorias/movimentacao/expert_pedido.md
-      - expert_pedidoitem: views/obrigatorias/movimentacao/expert_pedidoitem.md
-      - expert_nota: views/obrigatorias/movimentacao/expert_nota.md
-      - expert_notaitem: views/obrigatorias/movimentacao/expert_notaitem.md
+    - Movimentação Entrada:
+      - Visão Geral: views/obrigatorias/movimentacao_entrada/index.md
+      - expert_entrada: views/obrigatorias/movimentacao_entrada/expert_entrada.md
+      - expert_entradaitem: views/obrigatorias/movimentacao_entrada/expert_entradaitem.md
+    - Movimentação Saída:
+      - Visão Geral: views/obrigatorias/movimentacao_saida/index.md
+      - expert_saida: views/obrigatorias/movimentacao_saida/expert_saida.md
+      - expert_saidaitem: views/obrigatorias/movimentacao_saida/expert_saidaitem.md
   - Opcionais:
     - Visão Geral: views/opcionais/index.md
-    - expert_grupo: views/opcionais/expert_grupo.md
-    - expert_embalagem: views/opcionais/expert_embalagem.md
-    - expert_carregamento: views/opcionais/expert_carregamento.md
-    - expert_carga: views/opcionais/expert_carga.md
-    - expert_rota: views/opcionais/expert_rota.md
-    - expert_regiao: views/opcionais/expert_regiao.md
+    - Cadastros:
+      - Visão Geral: views/opcionais/cadastros/index.md
+      - expert_grupo: views/opcionais/cadastros/expert_grupo.md
+      - expert_regiao: views/opcionais/cadastros/expert_regiao.md
+      - expert_rota: views/opcionais/cadastros/expert_rota.md
+      - expert_embalagem: views/opcionais/cadastros/expert_embalagem.md
+    - Movimentação:
+      - Visão Geral: views/opcionais/movimentacao/index.md
+      - expert_carregamento: views/opcionais/movimentacao/expert_carregamento.md
+      - expert_carga: views/opcionais/movimentacao/expert_carga.md

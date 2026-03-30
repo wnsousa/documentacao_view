@@ -1,9 +1,9 @@
-# expert_regiao
+# expert_grupo
 
 ![Opcional](https://img.shields.io/badge/View-Opcional-green)
-![Módulo](https://img.shields.io/badge/Módulo-Opcional-green)
+![Módulo](https://img.shields.io/badge/Módulo-Cadastro-green)
 
-> View que representa a relação de regiões.
+> View que representa o cadastro de grupos, esse dado pode ser utilizado como filtro em algumas rotinas.
 
 ---
 
@@ -12,11 +12,10 @@
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
 | `id` | `int` | Sequência de linhas no retorno da view. |
-| `codigo` | `varchar(30)` | Codigo da região. |
-| `nome` | `varchar(100)` | Nome da região. |
+| `codigo` | `varchar(30)` | Codigo do grupo. |
+| `nome` | `varchar(100)` | Nome do grupo. |
 
 ---
-
 
 ## Consulta Completa
 
@@ -25,7 +24,7 @@ SELECT
     id,
     codigo,
     nome
-FROM expert_regiao
+FROM expert_grupo
 ```
 
 !!! tip "Dica"

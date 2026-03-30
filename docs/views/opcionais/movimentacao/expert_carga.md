@@ -1,7 +1,7 @@
 # expert_carga
 
 ![Opcional](https://img.shields.io/badge/View-Opcional-green)
-![Módulo](https://img.shields.io/badge/Módulo-Opcional-green)
+![Módulo](https://img.shields.io/badge/Módulo-Movimentação-green)
 
 > View responsável pelo agrupamento de notas fiscais no recebimento de mercadoria.
 

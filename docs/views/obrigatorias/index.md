@@ -16,10 +16,10 @@ As views abaixo são **essenciais** para o funcionamento da integração.
 
 | View | Descrição |
 |---|---|
-| [expert_pedido](movimentacao/expert_pedido.md) | Cabeçalho dos pedidos |
-| [expert_pedidoitem](movimentacao/expert_pedidoitem.md) | Itens dos pedidos |
-| [expert_nota](movimentacao/expert_nota.md) | Cabeçalho das notas fiscais |
-| [expert_notaitem](movimentacao/expert_notaitem.md) | Itens das notas fiscais |
+| [expert_saida](movimentacao_saida/expert_saida.md) | Cabeçalho dos pedidos de saída |
+| [expert_saidaitem](movimentacao_saida/expert_saidaitem.md) | Itens dos pedidos de saída |
+| [expert_entrada](movimentacao_entrada/expert_entrada.md) | Cabeçalho das notas de entrada |
+| [expert_entradaitem](movimentacao_entrada/expert_entradaitem.md) | Itens das notas de entrada |
 
 !!! danger "Atenção"
     A ausência de qualquer uma dessas views **impedirá** o processo de importação.
