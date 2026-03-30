@@ -1,0 +1,60 @@
+site_name: Documentação de Integração
+site_description: Documentação técnica das views de integração
+site_author: Seu Time
+
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+
+nav:
+  - Início: index.md
+  - Obrigatórias:
+    - Visão Geral: views/obrigatorias/index.md
+    - Cadastro:
+      - expert_cliente: views/obrigatorias/cadastro/expert_cliente.md
+      - expert_fornecedor: views/obrigatorias/cadastro/expert_fornecedor.md
+      - expert_produto: views/obrigatorias/cadastro/expert_produto.md
+    - Movimentação:
+      - expert_pedido: views/obrigatorias/movimentacao/expert_pedido.md
+      - expert_pedidoitem: views/obrigatorias/movimentacao/expert_pedidoitem.md
+      - expert_nota: views/obrigatorias/movimentacao/expert_nota.md
+      - expert_notaitem: views/obrigatorias/movimentacao/expert_notaitem.md
+  - Opcionais:
+    - Visão Geral: views/opcionais/index.md
+    - expert_grupo: views/opcionais/expert_grupo.md
+    - expert_embalagem: views/opcionais/expert_embalagem.md
+    - expert_carregamento: views/opcionais/expert_carregamento.md
+    - expert_carga: views/opcionais/expert_carga.md
+    - expert_rota: views/opcionais/expert_rota.md
+    - expert_regiao: views/opcionais/expert_regiao.md
