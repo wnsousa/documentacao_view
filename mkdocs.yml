@@ -5,6 +5,7 @@ site_author: Seu Time
 theme:
   name: material
   language: pt-BR
+  custom_dir: overrides        # ← pasta para customizações
   palette:
     - scheme: default
       primary: indigo
@@ -23,9 +24,13 @@ theme:
     - navigation.sections
     - navigation.expand
     - navigation.top
+    - navigation.indexes
     - search.highlight
     - search.suggest
     - content.code.copy
+
+extra_css:
+  - stylesheets/nav.css        # ← arquivo CSS que vai estilizar o menu
 
 markdown_extensions:
   - admonition
