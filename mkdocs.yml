@@ -61,7 +61,15 @@ nav:
       - expert_regiao: views/opcionais/cadastros/expert_regiao.md
       - expert_rota: views/opcionais/cadastros/expert_rota.md
       - expert_embalagem: views/opcionais/cadastros/expert_embalagem.md
-    - Movimentação:
-      - Visão Geral: views/opcionais/movimentacao/index.md
-      - expert_carregamento: views/opcionais/movimentacao/expert_carregamento.md
-      - expert_carga: views/opcionais/movimentacao/expert_carga.md
+    - Movimentação Entrada:
+      - Visão Geral: views/opcionais/movimentacao_entrada/index.md
+      - expert_carga: views/opcionais/movimentacao_entrada/expert_carga.md
+    - Movimentação Saída:
+      - Visão Geral: views/opcionais/movimentacao_saida/index.md
+      - expert_carregamento: views/opcionais/movimentacao_saida/expert_carregamento.md
+    - Estoque:
+      - Visão Geral: views/opcionais/estoque/index.md
+      - expert_estoque: views/opcionais/estoque/expert_estoque.md
+    - Auditoria:
+      - Visão Geral: views/opcionais/auditoria/index.md
+      - expert_auditoria: views/opcionais/auditoria/expert_auditoria.md

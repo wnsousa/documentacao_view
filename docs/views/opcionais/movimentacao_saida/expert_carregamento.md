@@ -1,7 +1,7 @@
 # expert_carregamento
 
 ![Opcional](https://img.shields.io/badge/View-Opcional-green)
-![Módulo](https://img.shields.io/badge/Módulo-Movimentação-green)
+![Módulo](https://img.shields.io/badge/Módulo-Saída-green)
 
 > View reponssavel pelo agrupamento de pedidos no processo de expedição ou embarque.
 
