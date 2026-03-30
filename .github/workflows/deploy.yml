@@ -3,7 +3,7 @@ name: Deploy MkDocs
 on:
   push:
     branches:
-      - main  # dispara sempre que você der push na branch main
+      - main
 
 permissions:
   contents: write
@@ -20,6 +20,9 @@ jobs:
 
       - name: Instalar dependências
         run: pip install -r requirements.txt
+
+      - name: Criar pasta overrides
+        run: mkdir -p overrides        # ← adicione este passo
 
       - name: Deploy no GitHub Pages
         run: mkdocs gh-deploy --force
