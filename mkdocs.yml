@@ -78,3 +78,15 @@ nav:
     - Auditoria:
       - Visão Geral: views/opcionais/auditoria/index.md
       - expert_auditoria: views/opcionais/auditoria/expert_auditoria.md
+  - Procedures:                                              # ← nova seção
+    - Visão Geral: procedures/index.md
+    - Entradas:
+      - Visão Geral: procedures/entradas/index.md
+      - Retorno Importação: procedures/entradas/sp_retorno_imp_entrada.md
+      - Retorno Exclusão: procedures/entradas/sp_retorno_libera_entrada.md
+      - Retorno Finalização: procedures/entradas/sp_retorno_exp_entrada.md
+    - Saídas:
+      - Visão Geral: procedures/saidas/index.md
+      - Retorno Importação: procedures/saidas/sp_retorno_imp_pedido.md
+      - Retorno Exclusão: procedures/saidas/sp_retorno_libera_pedido.md
+      - Retorno Finalização: procedures/saidas/sp_retorno_exp_pedido.md
